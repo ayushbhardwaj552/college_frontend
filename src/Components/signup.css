@@ -1,0 +1,116 @@
+.form-wrapper {
+    height:100vh;
+    width:100vw;
+    background-color: var(--main-color);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form-wrapper form {
+    display:flex;
+    flex-direction: column;
+    gap:1.5rem;
+    align-items: center;
+    justify-content: center;
+    height:40rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 100px;
+    width:40rem;
+    background-color: var(--bg-color);
+}
+
+.form-wrapper form input {
+    background-color: var(--bg-color);
+    border-bottom: 2px solid var(--secondary-color);
+    border-top: 0px;
+    font-family: var(--main-text-font);
+    height:10%;
+    border-left:0px;
+    border-right:0px;
+    width:70%;
+    font-size: 2rem;
+    color:var(--secondary-color);
+    transition:all 0.25s;
+}
+
+.form-wrapper form input:focus {
+    border:1px solid var(--secondary-color);
+}
+
+
+.form-wrapper form button {
+    margin-top: 2rem;
+    border: none;
+    background-color: var(--secondary-color);
+    font-family: var(--main-text-font);
+    min-width: 14rem;
+    max-width: 14rem;
+    max-height: 3.563rem;
+    color: var(--bg-color);
+    font-size: 1.175rem;
+    border-radius: 6.25rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;   
+    transition: all 0.25s;
+
+}
+
+.form-wrapper form button:hover {
+    min-width: 20rem;
+    cursor: pointer;
+    /* background-color: var(--secondary-color); */
+}
+
+ .form-wrapper form .user-text .error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-width:  70%;
+    min-height: 4%; */
+    font-family: var(--main-text-font);
+    text-align: center;
+    color:var(--error-color);
+
+}
+
+.form-wrapper form .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-width:  70%;
+    min-height: 4%; */
+    font-family: var(--main-text-font);
+    color:var(--secondary-color);
+}
+
+
+.form-wrapper form .login-text {
+    font-family: var(--main-text-font);
+    color:var(--secondary-color);
+    margin: 0px;
+    font-size: 1.4rem;
+}
+
+.form-wrapper form .login-text .login-link {
+    color:var(--main-color);
+}
+
+.form-wrapper form .user-text {
+    width:70%;
+    gap:0.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-wrapper form .user-text .success {
+    font-family: var(--main-text-font);
+    color:green;
+    margin: 0px;
+    font-size: 1.4rem;
+}

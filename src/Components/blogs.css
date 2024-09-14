@@ -1,0 +1,71 @@
+.blog {
+    min-height:100vh;
+    width:100vw;
+    padding-left:4rem;
+    padding-top: 2rem;
+    background-color: var(--main-color);
+}
+
+
+.blog .blog-heading {
+    padding:1.5rem;
+    font-size: 3rem;
+    margin-bottom: 0px;
+    font-family: var(--heading-text-font);
+    color:black;
+    width:90%;
+}
+
+.blog .blog-text {
+    margin-top: 0px;
+    padding:1.5rem;
+    width:80%;
+    font-size: 1.3rem;
+    /* border: 1px solid var(--secondary-color); */
+    font-family: var(--main-text-font);
+    color:var(--bg-color);
+    white-space: pre-line;
+    margin-bottom: 0px;
+}
+
+
+.blog .blog-author {
+    margin-top: 0px;
+    padding:1.5rem;
+    color:var(--secondary-color);
+    font-family: var(--main-text-font);
+    
+}
+
+
+.blog-loading{
+    font-family: var(--main-text-font);
+    background-color: var(--main-color);
+    color:var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    height:90vh;
+}
+
+
+.blog-comments {
+    width:100vw;
+}
+
+.blog-comments .blog-comments-heading {
+    font-family: var(--main-text-font);
+    font-size: 3rem;
+    padding-left: 2rem;
+    color: black;
+    width: 100vw;
+}
+
+.comments-denied {
+    font-family: var(--main-text-font);
+    color:var(--secondary-color);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}

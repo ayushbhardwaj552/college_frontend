@@ -1,0 +1,105 @@
+.blog-comments {
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-comments form {
+    width:100vw;
+    display: flex;
+    align-items: center;
+    padding:2rem;
+    gap:1rem;
+}
+
+
+.blog-comments form input {
+    margin-left: 1rem;
+    background-color: var(--bg-color);
+    border-bottom: 2px solid var(--secondary-color);
+    border-top: 0px;
+    font-family: var(--main-text-font);
+    height:10%;
+    padding:1rem;
+    border-left:0px;
+    border-right:0px;
+    width:70%;
+    font-size: 2rem;
+    color:var(--secondary-color);
+    transition:all 0.25s;
+}
+
+
+.blog-comments form button {
+    /* margin-top: 2rem; */
+    border: none;
+    background-color: var(--secondary-color);
+    font-family: var(--main-text-font);
+    min-width: 14rem;
+    max-width: 14rem;
+    max-height: 3.563rem;
+    color: var(--bg-color);
+    font-size: 1.175rem;
+    border-radius: 6.25rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;   
+    transition: all 0.25s;
+}
+
+.blog-comments form button:hover {
+    min-width: 20rem;
+    cursor: pointer;
+}
+
+.comment-loading {
+    font-family: var(--main-text-font);
+    background-color: var(--main-color);
+    color:var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    height: 20vh;
+}
+
+
+
+.comments-render {
+    list-style: none;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    /* background-color: var(--bg-color); */
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.comments-render .blog-single-comment {
+    display: flex;
+    padding:2rem;
+    height: 100%;;
+    align-items: center;
+    justify-content: space-between;
+    width:50%;
+    background-color: var(--secondary-color);
+    color:var(--bg-color);
+    border-radius: 25px;
+    border: 1px solid var(--bg-color);
+}
+
+.comments-render .blog-single-comment .comment-content {
+    font-family: var(--main-text-font);
+    width:60%;
+    flex-wrap: wrap;
+    font-size: 1.414rem;
+}
+
+
+.comments-render .blog-single-comment .comment-user {
+    font-family: var(--main-text-font);
+}
